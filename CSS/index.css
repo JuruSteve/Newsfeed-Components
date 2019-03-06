@@ -105,6 +105,17 @@
 .article-open {
   height: 400px;
 }
+.article-open p {
+  animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #1f4972;
+  }
+  100% {
+    background-color: #743c39;
+  }
+}
 html,
 body {
   margin: 0;
